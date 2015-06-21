@@ -9,6 +9,7 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 body {
   margin: 0;
@@ -244,6 +245,7 @@ th {
   }
   .navbar {
     display: none;
+    -webkit-backface-visibility: hidden;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -3535,6 +3537,7 @@ tbody.collapse.in {
   content: "";
   border-top: 0;
   border-bottom: 4px solid;
+  -webkit-backface-visibility: hidden;
 }
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
@@ -3546,10 +3549,12 @@ tbody.collapse.in {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
+    -webkit-backface-visibility: hidden;
   }
   .navbar-right .dropdown-menu-left {
     right: auto;
     left: 0;
+    -webkit-backface-visibility: hidden;
   }
 }
 .btn-group,
@@ -4071,10 +4076,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  -webkit-backface-visibility: hidden;
 }
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
+    -webkit-backface-visibility: hidden;
   }
 }
 @media (min-width: 768px) {
