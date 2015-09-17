@@ -77,7 +77,7 @@ a:hover {
 }
 
 .navbar-trans {
-	background-color:#2b2b2b;
+	   background-color:#2b2b2b;
     color:#cdcdcd;
     border-width:0;
 }
@@ -226,5 +226,5 @@ footer .nav>li>a {
 
 footer .nav>li>a:hover {
     background-color:transparent;
-	color:#fff;
+	 color:#fff;
 }
